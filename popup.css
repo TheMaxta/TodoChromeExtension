@@ -1,9 +1,35 @@
 body {
-    width: 300px;
+    width: 500px;
     padding: 10px;
 }
 
 .completed {
     text-decoration: line-through;
     color: green;
+}
+.project {
+    margin-bottom: 1rem;
+}
+
+.project-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+
+.form-check-label {
+    margin-left: 0.5rem;
+}
+
+.fa-trash-alt {
+    margin-left: auto;
+    color: red;
 }
